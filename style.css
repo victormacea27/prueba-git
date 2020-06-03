@@ -1,0 +1,16 @@
+.box{
+    width: 400px;
+    height: 400px;
+    background: rgb(105, 105, 233);
+    margin: auto;
+    display: inline-block;
+    text-align: left;
+}
+@media (max-width: 800px) {
+    .box{
+        display: block;
+        background: black;
+        color: white;
+        text-align: right;
+    }
+  }
